@@ -17,16 +17,20 @@ The app fetches posts from a simulated API, caches them locally using **Hive**, 
 Here is the visual proof of the system's capabilities:
 
 ### 1. The Main Dashboard (Posts Screen)
-Displays all available posts. Favorited items are highlighted with a solid star.
-![Posts Screen](screenshots/posts_screen.png)
+The initial state displaying all available posts without any selections.
+<img src="screenshots (-------/1.png" alt="Initial State">
 
-### 2. The Inner Circle (Favorites Screen)
+### 2. Active Selection
+The main screen after taking control and selecting specific posts. Favorited items are highlighted with a solid star.
+<img src="screenshots (-------/2.png" alt="Selected Posts">
+
+### 3. The Inner Circle (Favorites Screen)
 A dedicated space displaying only the posts the user has chosen to keep.
-![Favorites Screen](screenshots/favorites_screen.png)
+<img src="screenshots (-------/3.png" alt="Favorites Screen">
 
-### 3. Absolute Dominance (Offline Mode)
+### 4. Absolute Dominance (Offline Mode)
 The system running independently in Airplane Mode, successfully bypassing connection errors and relying solely on the Hive cache.
-![Offline Mode](screenshots/offline_mode.png)
+<img src="screenshots (-------/4 (offline_mode).png" alt="Offline Mode">
 
 ## 🛠️ Tech Stack
 - **Framework:** Flutter / Dart
