@@ -18,19 +18,22 @@ Here is the visual proof of the system's capabilities:
 
 ### 1. The Main Dashboard (Posts Screen)
 The initial state displaying all available posts without any selections.
-![Initial State](screenshots%20%28-------/1.png)
+![Initial State](screenshots/1.png)
 
 ### 2. Active Selection
 The main screen after taking control and selecting specific posts. Favorited items are highlighted with a solid star.
-![Selected Posts](screenshots%20%28-------/2.png)
+![Selected Posts](screenshots/2.png)
 
 ### 3. The Inner Circle (Favorites Screen)
 A dedicated space displaying only the posts the user has chosen to keep.
-![Favorites Screen](screenshots%20%28-------/3.png)
+![Favorites Screen](screenshots/3.png)
 
 ### 4. Absolute Dominance (Offline Mode)
 The system running independently in Airplane Mode, successfully bypassing connection errors and relying solely on the Hive cache.
-![Offline Mode](screenshots%20%28-------/4%20%28offline_mode%29.png)
+![Offline Mode1](screenshots/4.png)
+![Offline Mode2](screenshots/5.png)
+![Offline Mode3](screenshots/6.png)
+![Offline Mode4](screenshots/7.png)
 
 ## 🛠️ Tech Stack
 - **Framework:** Flutter / Dart
