@@ -11,26 +11,25 @@ The app fetches posts from a simulated API, caches them locally using **Hive**, 
 - **Favorites System:** A dedicated, isolated Hive box (`favoritesBox`) to manage user preferences persistently across app restarts.
 - **Reactive UI:** Built with `ValueListenableBuilder` to reactively update the UI the moment the underlying Hive box changes, without unnecessary rebuilds.
 - **Custom Injected Data:** Replaces standard dummy data with custom, meaningful records tailored to the academic environment.
-
 ## 📸 Proof of Concept (Screenshots)
 
 Here is the visual proof of the system's capabilities:
 
 ### 1. The Main Dashboard (Posts Screen)
 The initial state displaying all available posts without any selections.
-<img src="screenshots (-------/1.png" alt="Initial State">
+![Initial State](screenshots%20(-------/1.png)
 
 ### 2. Active Selection
 The main screen after taking control and selecting specific posts. Favorited items are highlighted with a solid star.
-<img src="screenshots (-------/2.png" alt="Selected Posts">
+![Selected Posts](screenshots%20(-------/2.png)
 
 ### 3. The Inner Circle (Favorites Screen)
 A dedicated space displaying only the posts the user has chosen to keep.
-<img src="screenshots (-------/3.png" alt="Favorites Screen">
+![Favorites Screen](screenshots%20(-------/3.png)
 
 ### 4. Absolute Dominance (Offline Mode)
 The system running independently in Airplane Mode, successfully bypassing connection errors and relying solely on the Hive cache.
-<img src="screenshots (-------/4 (offline_mode).png" alt="Offline Mode">
+![Offline Mode](screenshots%20(-------/4%20(offline_mode).png)
 
 ## 🛠️ Tech Stack
 - **Framework:** Flutter / Dart
